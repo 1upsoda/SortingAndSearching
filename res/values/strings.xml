@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sorting And Searching</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scramble">Scramble</string>
+    <string name="quicksort">Quick Sort</string>
+    <string name="selectsort">Select Sort</string>
+    <string name="search">Search</string>
+    <string name="display">Display</string>
+    <string name="unused">unused</string>
+
+</resources>
