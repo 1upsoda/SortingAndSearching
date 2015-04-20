@@ -115,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/Weapons"
-            android:layout_toLeftOf="@+id/editText1"
+            android:layout_toLeftOf="@+id/intSize"
             android:layout_toRightOf="@id/Weapons"
             android:text="RPS" />
 
@@ -129,7 +129,7 @@
             android:text="Unused" />
 
         <EditText
-            android:id="@+id/editText1"
+            android:id="@+id/intSize"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -142,53 +142,53 @@
         </EditText>
 
         <EditText
-            android:id="@+id/EditText02"
+            android:id="@+id/doubleSize"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@+id/unused"
             android:ems="10"
-            android:hint="int size"
+            android:hint="dble size"
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/EditText01"
+            android:id="@+id/intRandomization"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editText1"
+            android:layout_alignLeft="@+id/intSize"
             android:layout_alignTop="@+id/displayButton"
             android:ems="10"
-            android:hint="int size"
+            android:hint="int rando"
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/EditText03"
+            android:id="@+id/wordsSize"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_toRightOf="@+id/editText1"
+            android:layout_toRightOf="@+id/intSize"
             android:ems="10"
-            android:hint="int size"
+            android:hint="word size"
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/EditText05"
+            android:id="@+id/weaponsSize"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@+id/EditText02"
+            android:layout_toRightOf="@+id/doubleSize"
             android:ems="10"
-            android:hint="int size"
+            android:hint="wep size"
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/EditText04"
+            android:id="@+id/unusedSize"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/EditText03"
+            android:layout_alignLeft="@+id/wordsSize"
             android:layout_below="@+id/Doubles"
             android:ems="10"
-            android:hint="int size"
+            android:hint="unused"
             android:inputType="number" />
 
     </RelativeLayout>
@@ -203,6 +203,14 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/whereNumbersGo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is where numbers go!"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
         </LinearLayout>
     </ScrollView>
 

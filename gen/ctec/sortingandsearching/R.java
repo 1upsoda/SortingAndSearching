@@ -27,26 +27,27 @@ public final class R {
     }
     public static final class id {
         public static final int Doubles=0x7f08000b;
-        public static final int EditText01=0x7f080010;
-        public static final int EditText02=0x7f08000f;
-        public static final int EditText03=0x7f080011;
-        public static final int EditText04=0x7f080013;
-        public static final int EditText05=0x7f080012;
         public static final int Integers=0x7f080008;
         public static final int RPS=0x7f08000c;
         public static final int Weapons=0x7f080009;
         public static final int Words=0x7f08000a;
-        public static final int action_settings=0x7f080014;
+        public static final int action_settings=0x7f080015;
         public static final int buttonLayout=0x7f080000;
         public static final int displayButton=0x7f080006;
-        public static final int editText1=0x7f08000d;
+        public static final int doubleSize=0x7f08000f;
+        public static final int intRandomization=0x7f080010;
+        public static final int intSize=0x7f08000d;
         public static final int quickSort=0x7f080003;
         public static final int scrambleButton=0x7f080002;
         public static final int scrollView1=0x7f080001;
         public static final int searchButton=0x7f080005;
         public static final int selectSort=0x7f080004;
         public static final int unused=0x7f08000e;
+        public static final int unusedSize=0x7f080013;
         public static final int update=0x7f080007;
+        public static final int weaponsSize=0x7f080012;
+        public static final int whereNumbersGo=0x7f080014;
+        public static final int wordsSize=0x7f080011;
     }
     public static final class layout {
         public static final int activity_sort=0x7f030000;
